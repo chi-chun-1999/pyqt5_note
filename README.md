@@ -1,1 +1,1 @@
-# pyqt5_tutorial
+# pyqt5_note

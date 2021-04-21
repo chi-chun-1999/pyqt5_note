@@ -1,0 +1,102 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'Widget.ui'
+#
+# Created by: PyQt5 UI code generator 5.12
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_Widget(object):
+    def setupUi(self, Widget):
+        Widget.setObjectName("Widget")
+        Widget.resize(470, 368)
+        self.horizontalLayout_2 = QtWidgets.QHBoxLayout(Widget)
+        self.horizontalLayout_2.setObjectName("horizontalLayout_2")
+        spacerItem = QtWidgets.QSpacerItem(4, 37, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_2.addItem(spacerItem)
+        self.verticalLayout = QtWidgets.QVBoxLayout()
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.groupBox_age = QtWidgets.QGroupBox(Widget)
+        self.groupBox_age.setObjectName("groupBox_age")
+        self.gridLayout = QtWidgets.QGridLayout(self.groupBox_age)
+        self.gridLayout.setObjectName("gridLayout")
+        self.label_agechanged_str = QtWidgets.QLabel(self.groupBox_age)
+        self.label_agechanged_str.setObjectName("label_agechanged_str")
+        self.gridLayout.addWidget(self.label_agechanged_str, 2, 0, 1, 1)
+        self.label_agechanged_int = QtWidgets.QLabel(self.groupBox_age)
+        self.label_agechanged_int.setObjectName("label_agechanged_int")
+        self.gridLayout.addWidget(self.label_agechanged_int, 1, 0, 1, 1)
+        self.lineEdit_agechanged_str = QtWidgets.QLineEdit(self.groupBox_age)
+        self.lineEdit_agechanged_str.setObjectName("lineEdit_agechanged_str")
+        self.gridLayout.addWidget(self.lineEdit_agechanged_str, 2, 1, 1, 1)
+        self.lineEdit_agechanged_int = QtWidgets.QLineEdit(self.groupBox_age)
+        self.lineEdit_agechanged_int.setObjectName("lineEdit_agechanged_int")
+        self.gridLayout.addWidget(self.lineEdit_agechanged_int, 1, 1, 1, 1)
+        self.label_age = QtWidgets.QLabel(self.groupBox_age)
+        self.label_age.setObjectName("label_age")
+        self.gridLayout.addWidget(self.label_age, 0, 0, 1, 1)
+        self.horizontalSlider_age = QtWidgets.QSlider(self.groupBox_age)
+        self.horizontalSlider_age.setOrientation(QtCore.Qt.Horizontal)
+        self.horizontalSlider_age.setObjectName("horizontalSlider_age")
+        self.gridLayout.addWidget(self.horizontalSlider_age, 0, 1, 1, 1)
+        self.verticalLayout.addWidget(self.groupBox_age)
+        self.groupBox_name = QtWidgets.QGroupBox(Widget)
+        self.groupBox_name.setObjectName("groupBox_name")
+        self.gridLayout_2 = QtWidgets.QGridLayout(self.groupBox_name)
+        self.gridLayout_2.setObjectName("gridLayout_2")
+        self.lineEdit_name = QtWidgets.QLineEdit(self.groupBox_name)
+        self.lineEdit_name.setObjectName("lineEdit_name")
+        self.gridLayout_2.addWidget(self.lineEdit_name, 0, 1, 1, 1)
+        self.pushButton_name = QtWidgets.QPushButton(self.groupBox_name)
+        self.pushButton_name.setObjectName("pushButton_name")
+        self.gridLayout_2.addWidget(self.pushButton_name, 0, 2, 1, 1)
+        self.label_namechanged = QtWidgets.QLabel(self.groupBox_name)
+        self.label_namechanged.setObjectName("label_namechanged")
+        self.gridLayout_2.addWidget(self.label_namechanged, 1, 0, 1, 1)
+        self.label_name = QtWidgets.QLabel(self.groupBox_name)
+        self.label_name.setObjectName("label_name")
+        self.gridLayout_2.addWidget(self.label_name, 0, 0, 1, 1)
+        self.lineEdit_namechanged = QtWidgets.QLineEdit(self.groupBox_name)
+        self.lineEdit_namechanged.setObjectName("lineEdit_namechanged")
+        self.gridLayout_2.addWidget(self.lineEdit_namechanged, 1, 1, 1, 2)
+        self.verticalLayout.addWidget(self.groupBox_name)
+        self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        spacerItem1 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem1)
+        spacerItem2 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem2)
+        spacerItem3 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem3)
+        self.pushButton_close = QtWidgets.QPushButton(Widget)
+        self.pushButton_close.setObjectName("pushButton_close")
+        self.horizontalLayout.addWidget(self.pushButton_close)
+        spacerItem4 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem4)
+        self.verticalLayout.addLayout(self.horizontalLayout)
+        self.horizontalLayout_2.addLayout(self.verticalLayout)
+        spacerItem5 = QtWidgets.QSpacerItem(4, 75, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout_2.addItem(spacerItem5)
+        self.horizontalLayout_2.setStretch(0, 1)
+        self.horizontalLayout_2.setStretch(2, 1)
+
+        self.retranslateUi(Widget)
+        QtCore.QMetaObject.connectSlotsByName(Widget)
+
+    def retranslateUi(self, Widget):
+        _translate = QtCore.QCoreApplication.translate
+        Widget.setWindowTitle(_translate("Widget", "Widget"))
+        self.groupBox_age.setTitle(_translate("Widget", "年齡設定"))
+        self.label_agechanged_str.setText(_translate("Widget", "ageChaned(str)響應"))
+        self.label_agechanged_int.setText(_translate("Widget", "ageChaned(int)響應"))
+        self.label_age.setText(_translate("Widget", "設定年齡(0~150)"))
+        self.groupBox_name.setTitle(_translate("Widget", "姓名設定"))
+        self.pushButton_name.setText(_translate("Widget", "設定姓名"))
+        self.label_namechanged.setText(_translate("Widget", "nameChanged(str)響應"))
+        self.label_name.setText(_translate("Widget", "輸入姓名"))
+        self.pushButton_close.setText(_translate("Widget", "close"))
+
+

@@ -24,9 +24,9 @@ pip3 install --user pyqt5
 
 ## Qt creator
 
-![](\pic\download_location.png)
+![](./pic/download_location.png)
 
-![](\pic\download_page.png)
+![](./pic/download_page.png)
 
-![](\pic\download_qtcreator.png)
+![](./pic/download_qtcreator.png)
 

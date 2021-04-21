@@ -15,3 +15,12 @@ sudo apt-get install qttools5-dev-tools
 
 ### Windows
 
+
+
+## qtchooser
+
+### Linux
+``` shell
+qtchooser -run-tool=designer -qt=5
+```
+

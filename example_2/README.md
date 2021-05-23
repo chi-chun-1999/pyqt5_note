@@ -2,9 +2,9 @@
 
 利用Qt Creator 製作GUI介面，將想要的元件放置於想要的位置，並調整適合的大小，且可以善加利用水平於垂直元件，善於設定元件的最大和最小寬度或高度屬性，善於設定版面配置的layoutStretch等屬性來達到版面配置效果，最後得到__`.ui`__檔。
 
-![qt creator](D:\pyqt5_note\pic\example_2.png)
+![qt creator](../pic/example_2.png)
 
-![ui_file](D:\pyqt5_note\pic\ui_file.png)
+![ui_file](../pic/ui_file.png)
 
 接者將生成好的`.ui`檔利用以下指令將其轉換成`.py`檔
 
@@ -17,7 +17,7 @@ pyuic5 -o ui_Dialog.py dialog.ui
 
 轉換後的`.py`
 
-![](D:\pyqt5_note\pic\vim_ex2.png)
+![](../pic/vim_ex2.png)
 
 之後就可以使用轉好的`Ui_Dialog`物件。以下建立`QnewDialog`物件，並在其建置函數中呼叫父類別(QDialog)建置函數，使`self`成為一個`QDialog`物件，並建立`self.ui`為`Ui_Dialog`，透過這種方式將介面與業務邏輯分離。
 
